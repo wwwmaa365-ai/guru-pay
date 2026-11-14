@@ -1,0 +1,6 @@
+{
+  "name": "PayPulse — Recharge & Bill Payment",
+  "description": "Cross-platform Expo React Native & TypeScript recharge, DTH, utility bill payment, wallet, notifications, and admin suite with EAS build profiles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

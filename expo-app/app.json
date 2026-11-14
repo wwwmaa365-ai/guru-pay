@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "PayPulse",
+    "slug": "paypulse-recharge-bills",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "paypulse",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.paypulse.mobile",
+      "buildNumber": "1",
+      "infoPlist": {
+        "UIBackgroundModes": ["remote-notification"],
+        "NSFaceIDUsageDescription": "Authenticate wallet payments and account access securely."
+      }
+    },
+    "android": {
+      "package": "com.paypulse.mobile",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#059669"
+        }
+      ],
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  }
+}
